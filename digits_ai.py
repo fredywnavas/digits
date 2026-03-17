@@ -51,3 +51,5 @@ with torch.no_grad():
 plt.imshow(image.squeeze(), cmap="gray")
 plt.title(f"Predictions: {predicted_digit} | Actual: {label}")
 plt.show()
+
+# this is just a coment to test git push
